@@ -7,7 +7,7 @@ export interface ProductListProps {}
 export function ProductList(props: ProductListProps) {
   return (
     <div className={styles['container']}>
-      <h1>Welcome to ProductList!</h1>
+      <h1>Welcome to Product List!</h1>
       <ModulesSharedUi />
     </div>
   );
