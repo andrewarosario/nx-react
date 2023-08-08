@@ -1,6 +1,7 @@
 import { Route, Routes } from 'react-router-dom';
 
 // importing the component from the library
+import { Orders } from 'modules/orders';
 import { ProductList } from 'modules/products';
 
 function Home() {
@@ -12,6 +13,7 @@ export function App() {
     <Routes>
       <Route path="/" element={<Home />}></Route>
       <Route path="/products" element={<ProductList />}></Route>
+      <Route path="/orders" element={<Orders />}></Route>
     </Routes>
   );
 }
