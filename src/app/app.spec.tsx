@@ -33,7 +33,7 @@ describe('App', () => {
       </MemoryRouter>
     );
 
-    const ordersText = getByText(/Orders/i);
+    const ordersText = getByText(/Página de pedidos/i);
     expect(ordersText).toBeTruthy();
   });
 });
