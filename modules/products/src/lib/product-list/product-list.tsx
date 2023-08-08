@@ -1,5 +1,5 @@
 import { ModulesSharedUi } from 'modules/shared/ui';
-import styles from './modules-products.module.scss';
+import styles from './product-list.module.scss';
 
 /* eslint-disable-next-line */
 export interface ProductListProps {}
